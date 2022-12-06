@@ -1,4 +1,5 @@
 target/
+!target/CriticalCore-1.0.jar
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
