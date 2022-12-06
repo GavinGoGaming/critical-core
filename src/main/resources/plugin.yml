@@ -1,0 +1,15 @@
+name: CriticalCore
+version: '${project.version}'
+main: com.gavingogaming.criticalcore.CriticalCorePlugin
+api-version: 1.19
+prefix: CriticalCore
+softdepend: [ Vault ]
+authors: [ GavinGoGaming ]
+description: A plugin that contains all the CRITICAL features for your plugins!
+website: http://gavingogaming.com
+commands:
+  critical:
+    permission: critical.admin
+    permission-message: "&cUnknown or incomplete command, see below for error:\n\at "/critical\" <-"
+    description: "The command for managing Critical Core."
+    usage: "/critical [args]"
