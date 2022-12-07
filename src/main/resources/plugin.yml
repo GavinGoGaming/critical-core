@@ -1,6 +1,6 @@
 name: CriticalCore
 version: '${project.version}'
-main: com.gavingogaming.criticalcore.CriticalCorePlugin
+main: com.gavingogaming.critical.CriticalCorePlugin
 api-version: 1.19
 prefix: CriticalCore
 softdepend: [ Vault ]

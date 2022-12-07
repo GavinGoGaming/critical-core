@@ -1,38 +1,23 @@
-package com.gavingogaming.criticalcore.api;
+package com.gavingogaming.criticalcore;
 
+import com.gavingogaming.criticalcore.api.Critical;
+import com.gavingogaming.criticalcore.api.CriticalChatUtil;
 import com.gavingogaming.criticalcore.api.commands.CriticalCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 public class CriticalPluginDefaultCommand implements CriticalCommand {
-    /**
-     * The command name (after the /)
-     *
-     * @return The command name, equal to plugin.yml
-     */
+
     @Override
     public String getCommand() {
         return "critical";
     }
 
-    /**
-     * The command description
-     *
-     * @return The command description
-     */
     @Override
     public String getDescription() {
         return "An admin command for Critical options & utility.";
     }
 
-    /**
-     * This is run once the command is executed.
-     *
-     * @param sender         The command sender.
-     * @param cmdInstance            The bukkit command instance
-     * @param args           The args in the command.
-     * @param isSenderPlayer Is the sender instance a Player (true) or Console (false)?
-     */
     @Override
     public void runCommand(CommandSender sender, Command cmdInstance, String[] args, boolean isSenderPlayer) {
         if(args.length < 1) {

@@ -1,5 +1,6 @@
 package com.gavingogaming.criticalcore.api.commands;
 
+import com.gavingogaming.criticalcore.api.Critical;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -18,6 +19,11 @@ public class AliasCommand {
             @Override
             public String getCommand() {
                 return name;
+            }
+
+            @Override
+            public String getDescription() {
+                return Critical.getInstanceIfExists().getCommander().getCommandByName(name).getDescription();
             }
 
             @Override

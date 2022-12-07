@@ -1,5 +1,6 @@
 package com.gavingogaming.criticalcore.api;
 
+import com.gavingogaming.criticalcore.CriticalPluginDefaultCommand;
 import com.gavingogaming.criticalcore.api.commands.CriticalCommander;
 import com.gavingogaming.criticalcore.api.commands.CriticalCommanderInstance;
 import org.bukkit.plugin.Plugin;
