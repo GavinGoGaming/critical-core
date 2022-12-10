@@ -1,4 +1,4 @@
-package com.gavingogaming.criticalcore.api.config;
+package com.klashdevelopment.criticalcore.api.config;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.Plugin;

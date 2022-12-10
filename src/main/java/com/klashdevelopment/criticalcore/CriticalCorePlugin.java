@@ -1,4 +1,4 @@
-package com.gavingogaming.criticalcore;
+package com.klashdevelopment.criticalcore;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

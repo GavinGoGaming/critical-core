@@ -1,4 +1,4 @@
-package com.gavingogaming.criticalcore.api;
+package com.klashdevelopment.criticalcore.api;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

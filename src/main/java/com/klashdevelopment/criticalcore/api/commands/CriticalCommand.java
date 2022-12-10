@@ -1,4 +1,4 @@
-package com.gavingogaming.criticalcore.api.commands;
+package com.klashdevelopment.criticalcore.api.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

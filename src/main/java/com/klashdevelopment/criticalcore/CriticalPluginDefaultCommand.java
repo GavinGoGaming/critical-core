@@ -1,8 +1,8 @@
-package com.gavingogaming.criticalcore;
+package com.klashdevelopment.criticalcore;
 
-import com.gavingogaming.criticalcore.api.Critical;
-import com.gavingogaming.criticalcore.api.CriticalChatUtil;
-import com.gavingogaming.criticalcore.api.commands.CriticalCommand;
+import com.klashdevelopment.criticalcore.api.Critical;
+import com.klashdevelopment.criticalcore.api.CriticalChatUtil;
+import com.klashdevelopment.criticalcore.api.commands.CriticalCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 

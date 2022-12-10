@@ -1,8 +1,8 @@
-package com.gavingogaming.criticalcore.api;
+package com.klashdevelopment.criticalcore.api;
 
-import com.gavingogaming.criticalcore.CriticalPluginDefaultCommand;
-import com.gavingogaming.criticalcore.api.commands.CriticalCommander;
-import com.gavingogaming.criticalcore.api.commands.CriticalCommanderInstance;
+import com.klashdevelopment.criticalcore.CriticalPluginDefaultCommand;
+import com.klashdevelopment.criticalcore.api.commands.CriticalCommander;
+import com.klashdevelopment.criticalcore.api.commands.CriticalCommanderInstance;
 import org.bukkit.plugin.Plugin;
 
 public class Critical {

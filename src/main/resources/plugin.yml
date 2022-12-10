@@ -1,6 +1,6 @@
 name: CriticalCore
 version: '${project.version}'
-main: com.gavingogaming.critical.CriticalCorePlugin
+main: com.klashdevelopment.criticalcore.CriticalCorePlugin
 api-version: 1.19
 prefix: CriticalCore
 softdepend: [ Vault ]
@@ -10,6 +10,5 @@ website: http://gavingogaming.com
 commands:
   critical:
     permission: critical.admin
-    permission-message: "&cUnknown or incomplete command, see below for error:\n\at "/critical\" <-"
+    permission-message: "&cUnknown or incomplete command, see below for error:\nat \"/critical\" <-"
     description: "The command for managing Critical Core."
-    usage: "/critical [args]"
