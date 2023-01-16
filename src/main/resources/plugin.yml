@@ -1,7 +1,7 @@
 name: CriticalCore
 version: '${project.version}'
 main: com.klashdevelopment.criticalcore.CriticalCorePlugin
-api-version: 1.19
+api-version: 1.13
 prefix: CriticalCore
 softdepend: [ Vault ]
 authors: [ GavinGoGaming ]
